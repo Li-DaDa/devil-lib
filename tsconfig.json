@@ -16,7 +16,10 @@
     ],
     "paths": {
       "@/*": [
-        "src/*"
+        "examples/*"
+      ],
+      "@@/*": [
+        "packages/*"
       ]
     },
     "lib": [
@@ -27,13 +30,17 @@
     ]
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
+    "examples/**/*.ts",
+    "examples/**/*.tsx",
+    "examples/**/*.vue",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "typings/shims-vue.d.ts"  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "build"
   ]
 }
