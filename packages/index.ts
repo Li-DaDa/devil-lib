@@ -1,5 +1,6 @@
 import { App } from 'vue'
 import VirtualList from './VirtualList'
+export { review as imageReview } from './ImageReview'
 
 // 所有组件列表
 const components = [VirtualList]
